@@ -1,0 +1,31 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+.blog{
+    background-color: rgb(51, 236, 181);
+    padding: 50px;
+}
+
+.flex-child{
+    padding: 50px;
+    width: 200px;
+}
+
+.flex{
+    max-width: 1000px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.info{
+    padding: 25px;
+    background-color: rgb(114, 231, 134);
+}

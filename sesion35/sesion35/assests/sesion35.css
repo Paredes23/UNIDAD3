@@ -1,0 +1,31 @@
+/*.flex-container {
+    display: flex;
+    background-color: aqua;
+}
+
+.flex-container div{
+    background-color: rgb(63, 231, 29);
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px; 
+}
+*/
+
+
+.flex-container{
+    display: flex;
+    height: 200px;
+    align-items: baseline;
+    background-color: cadetblue;
+
+}
+
+.flex-container >div{
+    background-color: crimson;
+    color: white;
+    width: 50px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}

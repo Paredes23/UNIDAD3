@@ -1,0 +1,28 @@
+body{
+    padding: 5%;
+    color:  #444;
+    max-width:  980px;
+    margin: 0 ;
+    background-color: rgb(229, 245, 89);
+
+}
+
+div{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.field{
+    flex:  1 0 40%;
+    width: 45%;
+    float: left;
+}
+
+.textarea{
+    flex: 1 0 90%;
+    width: 90%;
+}
+
+button{
+    background-color: rgb(15, 112, 116);
+}
