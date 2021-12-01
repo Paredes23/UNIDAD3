@@ -18,11 +18,11 @@ img{
     width: 200px;
 }
 
-.flex{
-    max-width: 1000px;
+.flex{ 
+    max-width: 1000px;  /*mas ancho*/
     flex-wrap: wrap;
-    display: flex;
-    justify-content: center;
+    display: flex;   /*esto es para dar cuadro a la derecha*/
+    justify-content: center; /*centar el contenido*/ 
 }
 
 .info{
